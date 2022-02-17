@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\begin{document}
+\begin{titlepage}
+
+    \begin{center}
+        
+            {\includegraphics[width=3cm]{NSU.jpg}}\\
+            \bf\huge{ North South University\\[0.1cm]}
+            \bf\large Department of Electrical And Computer Engineering \\[0.15cm]
+            \bf\huge {Project Proposal}
+        \line(1,0){300}\\
+        [0.15in]
+        \huge{\bfseries Bank Account Management System}\\
+        [1mm]
+        \line(1,0){300}\\[5mm]
+        \bf\large{ Database Management System Lab\\[0.1cm]}
+            \bf\large{CSE311L\\[0.15cm]}
+            \bf\large {Section: 9\\[0.3cm]}
+            \bf\large{Semester : SPRING 2022}\\[0.1cm]
+    \end{center}
+    \bf\large{Course Faculty Name:}\\[0.1cm]
+    \bf\small{Nadeem Ahmed\\[0.5cm]}
+    \bf\large{Lab Instructor Name:}\\[0.1cm]
+    \bf\small{Nazmul Alam Dipto\\[0.5cm]}
+    \bf\large{Student Name And ID:}\\[0.1cm]
+    \bf\small{Jubair Mahmud Pulock\\
+              1931111642\\
+              Salem Shmasul Alam\\
+              1931849642\\}
+    
+    \begin{center}
+        \bf\large{Submission Date : February 18 , 2022}
+    \end{center}
+
+    
+\end{titlepage}
+
+\section{Introduction:}\label{sec:intro}
+
+Bangladesh is one of the world's most populous countries, with a growth rate of roughly 4.5 percent. We must safeguard our funds and save up funds for the future. As a result, we require an organization capable of taking on this obligation, and the bank is doing a fantastic job in this regard. However, in order to complete this task, the bank will want a database system in order to establish a record that will make the process easier. So we're going to create a web application that can create accounts, store all of the information and convert the taka into dollar or euro. We're also implementing a two-step verification procedure to make the account more secure and dependable. The account holder can use this verification technique to block all fraudulent transactions.
+
+\section{Objective:}\label{sec:obj}
+
+• The ability to quickly create accounts and conduct    transactions.\\
+• Notification of the transactions to the account holder.\\
+• This program may generate an annual report.\\
+• Using two-step verification to protect your account from spam    is a good idea.\\
+• If a transaction is completed through this web application, all   branches will be updated.\\
+• Convert money into dollar or euro with ease.\\
+• This application will update all the branches.
+
+\section{Target Customer:}\label{sec:tar}
+
+• Accountant: This is the person who will setup the customer's account and conduct all transactions through this web application.\\
+• Account Holder: This is the individual whose account will be opened; he will be notified of all transactions and will provide authorization for all cash outs using the two-step verification procedure.
+
+\section{Value Proposition:}\label{sec:val}
+
+Both accountants and account holders will benefit from this website. The accountant may easily open a bank account for the user and terminate it at any time. There is also a mechanism that can easily convert the taka into dollars or euros. We also provide the ability to prevent fraudulent transactions through the use of a two-step verification mechanism, which will make the account more secure.
+
+\section{Web Application Features And Description:}\label{sec:web}
+
+This web application will begin with a home page to which only accountants with a password will have access. After gaining access, the accountant will be presented with a number of options for completing the tasks quickly and safely. After logging in, the accountant will see the following:\\[0.1cm]
+• Make a change to an existing account.\\
+• Account information.\\
+• Transactions.\\
+• Look up accounts.\\
+• A list of customers\\
+• Make a new account.\\
+• Deposit.\\
+• Transfer.\\
+• Make a balance check.\\
+• Calculator of different currencies\\
+• Withdrawal.\\[0.1cm]
+The account holder will receive a consent notification when money is being withdrawn. He/she can cancel the transaction at that time if he/she uses that method.
+
+\section{Tool And Resources:}\label{sec:too}
+
+• HTML\\
+• Javascript\\
+• MySQL\\
+• PHP\\
+• Web-based server\\
+• Text Message API
+
+\section{Challenges:}\label{sec:cha}
+
+The cost is one of the most significant obstacles. There is a risk of significant maintenance costs because there will be a lot of data, such as images, SMS alerts, and two-step verification alerts. The two-step verification method will be the second obstacle, as not all customers will be available at all times. As a result, there will be plenty of opportunities to waste time. Customers will be irritated by this. The user interface must also be basic and intuitive so that accountants can use it. Finally, upgrading all of the branches will be a major undertaking.
+
+\end{document}
